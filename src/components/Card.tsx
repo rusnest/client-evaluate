@@ -17,7 +17,7 @@ const Card: React.FC<CardProps> = (props: CardProps) => {
       </a>
       <div className="px-5 pb-5">
         <a href={link} target="_blank" rel="noreferrer">
-          <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="text-xl break-words font-semibold tracking-tight text-gray-900 dark:text-white">
             {name}
           </h5>
         </a>
